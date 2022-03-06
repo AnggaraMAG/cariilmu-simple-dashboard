@@ -88,7 +88,7 @@ const ClassTable = (props: any) => {
   };
 
   return (
-    <div className="py-5 px-5">
+    <div className="lg:py-5 lg:px-5 px-0 py-0">
       <div className="text-2xl py-3">Daftar Kelas</div>
       <Table columns={columns} dataSource={data} pagination={false} />
       <div className="py-3 justify-center flex">
