@@ -59,7 +59,7 @@ const InstructorTable = (props: any) => {
 
   return (
     <div className="py-5 px-5 ">
-      <div className="text-2xl py-3">Daftar Kelas</div>
+      <div className="text-2xl py-3">Daftar Instruktur</div>
       <Table columns={columns} dataSource={data} pagination={false} />
       <div className="py-3 justify-center flex">
         <Pagination
