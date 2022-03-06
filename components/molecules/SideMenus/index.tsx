@@ -7,7 +7,7 @@ const SideMenus = (props: any) => {
   const router = useRouter();
   return (
     <aside
-      className={`w-64 space-y-6 md:static fixed z-10 transition-all md:translate-x-0 md:transition duration-200 ease-in-out md:mt-0 mt-0 py-0 md:py-0
+      className={`w-64 space-y-6 md:static fixed z-10 transition-all md:translate-x-0 md:transition duration-200 ease-in-out md:mt-0 mt-12 py-1.5 md:py-0
         ${showNav ? "left-0" : "-left-full"}`}
     >
       <div className="py-4 px-3 bg-gray-50 rounded dark:bg-gray-800 min-h-screen ">

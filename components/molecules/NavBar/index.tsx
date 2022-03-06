@@ -5,7 +5,7 @@ const NavBar = (props: any) => {
   return (
     <nav>
       {/* <!-- mobile menu bar --> */}
-      <div className="bg-yellow-400 text-gray-100   flex justify-between md:hidden sm:fixed w-full z-10">
+      <div className="bg-yellow-400 text-gray-100 flex justify-between md:hidden fixed w-full z-10">
         {/* <!-- logo --> */}
         <a href="#" className="block p-4 text-white font-bold">
           Cariilmu.

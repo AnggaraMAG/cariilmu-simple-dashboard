@@ -34,7 +34,7 @@ const InstructorPage = () => {
       {/* </aside> */}
 
       {/* content */}
-      <main className="w-full overflow-y-auto ">
+      <main className="w-full overflow-y-auto md:mt-0 mt-12 py-1.5 md:py-0">
         <InstructorTable
           dataInstructor={data}
           setPage={setPage}
