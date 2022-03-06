@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Link Publish
-https://cariilmu-simple-dashboard-qn3bf6yqm-anggaramag.vercel.app/
+https://cariilmu-simple-dashboard-n8pc2kdi0-anggaramag.vercel.app
 
 ## Technology
 
