@@ -9,6 +9,7 @@ const Index = () => {
   // state
   const [page, setPage] = React.useState(1);
   const [limit, setLimit] = React.useState(10);
+  const [showNav, setshowNav] = React.useState(false);
 
   // get all data class
   const { data, error, isLoading, isFetching, isSuccess } = useGetKelasQuery({
@@ -22,12 +23,10 @@ const Index = () => {
         <meta property="og:title" content="Daftar Kelas" key="title" />
       </Head>
       {/* Navbar */}
-      <NavBar />
+      <NavBar setshowNav={setshowNav} showNav={showNav} />
 
       {/* sidebar */}
-      <aside className="sidebar w-64 space-y-6  absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
-        <SideMenus />
-      </aside>
+      <SideMenus showNav={showNav} />
 
       {/* content */}
       <main className="w-full overflow-y-auto">
